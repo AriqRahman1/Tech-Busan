@@ -3,10 +3,15 @@ top: 28%;
 font-size: medium;
 }
 /* mobile view  */
-@media only screen and (min-width: 768px) {
-    .card{
-        display: flex;
-        flex-wrap: wrap;
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+    }
+}
+/* tab version  */
+@media (min-width:768px) {
+    .card {
+       
     }
 }
 .acrd{
@@ -20,4 +25,7 @@ font-size: medium;
 }
 .add{
     padding-top: 80px;
+}
+.jon{
+    padding-top: 120px;
 }
