@@ -7,6 +7,10 @@ font-size: medium;
     .card {
         width: 100%;
     }
+    .carousel-caption{
+        font-size: small;
+        top: -5%;
+    }
 }
 /* tab version  */
 @media (min-width:768px) {
